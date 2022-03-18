@@ -1,1 +1,13 @@
-style.css
+#container {
+	margin: 1em;
+	width:960px;
+	height:960px;
+	justify-content: center;
+	align-content: center;
+}
+#container > div {
+	cursor: pointer;
+	font-size: 2rem;
+	border: 1px solid black;
+	background-color: rgba(255, 255, 255, .75);
+}
