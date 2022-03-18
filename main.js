@@ -1,8 +1,10 @@
-let gridSize = 4;//I'd make this an input or something
+let gridSize = 30;//I'd make this an input or something
 const container = document.querySelector('#container');
 container.style.display = 'none';
 function addDiv(){
 	const grid = document.createElement('div');
+	grid.classList.add("single");
+	grid.addEventListener('mouseenter', function changeColor(){ grid.style.backgroundColor = 'black';})
 	//grid.textContent = `grid`;
 	container.appendChild(grid);
 }

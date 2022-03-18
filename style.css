@@ -1,3 +1,15 @@
+*, *::before, *::after {
+	box-sizing: border-box; /*So it's easier to size*/
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+
+body {
+	padding: 0;
+	margin: auto;
+	background: linear-gradient(to left, yellow, red);
+}
+
 #container {
 	margin: 1em;
 	width:960px;
